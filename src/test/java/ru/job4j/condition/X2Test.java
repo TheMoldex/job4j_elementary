@@ -13,9 +13,10 @@ public class X2Test {
         int c = 0;
         int x = 2;
         int expected = 40;
-        int rsl = X2.calc(10, 0 , 0 , 2);
+        int rsl = X2.calc(10, 0, 0, 2);
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenA1B1C1X1Then3() {
         int a = 1;
@@ -26,6 +27,7 @@ public class X2Test {
         int rsl = X2.calc(1, 1 , 1, 1);
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenA0B1C1X1Then2() {
         int a = 0;
@@ -36,6 +38,7 @@ public class X2Test {
         int rsl = X2.calc(0, 1, 1, 1);
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenA1B1C0X1Then2() {
         int a = 1;
@@ -46,6 +49,7 @@ public class X2Test {
         int rsl = X2.calc(1, 1, 0, 1);
         Assert.assertEquals(expected, rsl);
     }
+
     @Test
     public void whenA1B1C1X0Then1() {
         int a = 1;
