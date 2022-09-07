@@ -18,7 +18,7 @@ public class PointTest {
     }
 
     @Test
-    public void when15To21Then4dot12(){
+    public void when15To21Then4dot12() {
         int x1 = 1;
         int y1 = 5;
         int x2 = 2;
@@ -29,7 +29,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenMinus24To2Minus3Then8dot06(){
+    public void whenMinus24To2Minus3Then8dot06() {
         int x1 = -2;
         int y1 = 4;
         int x2 = 2;
