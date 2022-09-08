@@ -8,7 +8,7 @@ public class Max {
     }
 
     public static void main(String[] args) {
-        int maximum = Max.max(5, 2);
-        System.out.println(maximum);
+        int maxi = Max.max(5, 2);
+        System.out.println(maxi);
     }
 }
