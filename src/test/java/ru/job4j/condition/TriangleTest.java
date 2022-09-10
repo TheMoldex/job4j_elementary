@@ -13,14 +13,14 @@ class TriangleTest {
         double bc = 2.0;
         boolean result = Triangle.exist(ab, ac, bc);
         assertThat(result).isTrue();
-        }
+    }
 
-        @Test
+    @Test
     void whenNotExist() {
         double ab = 1.2;
         double ac = 1.1;
         double bc = 5.0;
         boolean result = Triangle.exist(ab, ac, bc);
         assertThat(result).isFalse();
-        }
     }
+}
